@@ -34,6 +34,7 @@ class FeedInsertDialogFragment(private val feedEntity: FeedEntity?) : BottomShee
         val roomEditText = view.findViewById<EditText>(R.id.room_name_edit_text)
         val isLiveCheckBox = view.findViewById<CheckBox>(R.id.room_live_check_box)
         val deleteFeedBtn = view.findViewById<TextView>(R.id.feed_delete_btn)
+        val createFeedBtn = view.findViewById<TextView>(R.id.feed_insert_create)
 
         deleteFeedBtn.visibility = View.GONE
 
@@ -47,13 +48,16 @@ class FeedInsertDialogFragment(private val feedEntity: FeedEntity?) : BottomShee
             deleteFeedBtn.setOnClickListener {
                 (requireActivity() as MainActivity).deleteExistingFeed(feedEntity)
             }
+            createFeedBtn.text = "Update"
+        } else {
+            createFeedBtn.text = "Create"
         }
 
         view.findViewById<TextView>(R.id.feed_insert_cancel).setOnClickListener {
             dismiss()
         }
 
-        view.findViewById<TextView>(R.id.feed_insert_create).setOnClickListener {
+        createFeedBtn.setOnClickListener {
             val textString = roomEditText.text.toString()
             if (textString.isEmpty() || textString.isBlank()) {
                 requireContext().showToast("Please enter valid room name")
