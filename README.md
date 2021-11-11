@@ -33,5 +33,8 @@
 <td>
 <img src="https://github.com/defetron27/Android_VPM/blob/master/Light%20Mode%20(4).jpg" />
 </td>
+<td>
+<img src="https://github.com/defetron27/Android_VPM/blob/master/Light%20Mode%20(5).jpg" />
+</td>
 </tr>
 </table>
