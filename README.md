@@ -21,10 +21,7 @@
 <table>
 <tr>
 <td>
-<video height="240" autoplay muted>
-  <source src="https://github.com/defetron27/Android_VPM/blob/master/VPM%20-%20Light%20Mode.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<video height="240" src="https://github.com/defetron27/Android_VPM/blob/master/VPM%20-%20Light%20Mode.mp4"/>
 </td>
 </tr>
 </table>
