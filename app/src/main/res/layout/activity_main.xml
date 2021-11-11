@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/main_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?colorOnPrimary"
+            android:text="@string/app_name"
+            android:textSize="30sp"
+            android:paddingHorizontal="20dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:paddingVertical="15dp"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/main_tab_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_app_bar"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/videos_tab_button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/videos"
+                android:background="@drawable/secondary_rounded_bg"
+                android:textAllCaps="false"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:paddingHorizontal="30dp"
+                android:fontFamily="@font/nunito"
+                android:textStyle="bold"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/feeds_tab_button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/feeds"
+                android:background="@null"
+                android:textAllCaps="false"
+                android:paddingHorizontal="30dp"
+                android:textColor="#858585"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:fontFamily="@font/nunito"
+                android:textStyle="bold"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/main_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/main_tab_bar"
+            android:layout_marginTop="10dp"
+            android:name="com.optisolu.vpm.fragments.VideosFragment"
+            android:paddingVertical="10dp"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/main_floating_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/floating_button"
+            android:src="@drawable/ic_add"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/drawable/edittext_rounded_bg.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/drawable/feed_insert_bottom_bg.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/drawable/grey_rounded_bg.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/drawable/ic_add.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/drawable/ic_baseline_videocam_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/drawable/left_top_bottom_radius_bg.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/drawable/live_rounded_bg.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/drawable/red_rounded_bg.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/drawable/rounded_bg.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/drawable/secondary_rounded_bg.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/drawable/secondary_rounded_bg_1.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/layout/activity_main.xml" value="0.3027806385169928" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/layout/feeds_recycler_layout_item.xml" value="0.22" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/layout/fragment_feed_insert_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/layout/fragment_feeds.xml" value="0.5" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/layout/fragment_videos.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/defet/Desktop/AndroidStudioProjects/VPM/app/src/main/res/layout/videos_recycler_item.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

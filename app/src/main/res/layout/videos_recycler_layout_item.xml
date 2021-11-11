@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:layout_marginVertical="10dp"
+        app:cardElevation="7dp"
+        app:cardCornerRadius="7dp"
+        android:background="?colorPrimary"
+        app:cardBackgroundColor="?colorPrimary"
+        >
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/ic_launcher_background"
+                android:background="@drawable/left_top_bottom_radius_bg"
+                android:contentDescription="profile_img"
+                android:scaleType="centerCrop"
+                />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Billy Gobs"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textSize="16sp"
+                    android:textColor="?android:textColor"
+                    />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Billy Gobs"
+                    android:fontFamily="@font/nunito"
+                    android:textSize="14sp"
+                    android:textColor="#CFCFCF"
+                    />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+</layout>

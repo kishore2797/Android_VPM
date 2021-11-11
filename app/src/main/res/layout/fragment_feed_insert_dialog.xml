@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the room name"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:textSize="15sp"
+        android:textColor="?colorOnPrimary"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/room_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/edittext_rounded_bg"
+        android:textSize="15sp"
+        android:hint="Room name"
+        android:fontFamily="@font/nunito_semibold"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/room_live_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isLive"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="13dp"
+        android:checked="true"
+        android:paddingStart="3dp"
+        android:paddingEnd="5dp"
+        android:fontFamily="@font/nunito_semibold"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        android:paddingVertical="5dp"
+        >
+
+        <TextView
+            android:id="@+id/feed_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textSize="14sp"
+            android:background="@drawable/red_rounded_bg"
+            android:textColor="@color/white"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:layout_marginEnd="15dp"
+            android:visibility="gone"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            >
+
+            <TextView
+                android:id="@+id/feed_insert_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textSize="14sp"
+                android:background="@drawable/grey_rounded_bg"
+                android:textColor="?colorOnPrimary"
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="20dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:layout_marginEnd="15dp"
+                />
+
+            <TextView
+                android:id="@+id/feed_insert_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create"
+                android:textSize="14sp"
+                android:background="@drawable/secondary_rounded_bg_1"
+                android:textColor="?colorOnPrimary"
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="20dp"
+                android:fontFamily="@font/nunito_semibold"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
